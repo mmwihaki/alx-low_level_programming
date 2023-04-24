@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
 *main - entry point
 *
-*Description - check whether  n is positive or negative
+*Description - check whether number  is positive or negative
 *
 *Return: Always 0 (success)
 */
