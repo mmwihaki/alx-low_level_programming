@@ -9,9 +9,8 @@
   * description - compute the absolute value of an integer
   *
   */
-int _abs(int)
+int _abs(int i)
 {
-	int i;
 
 	if (i >= 0)
 	{
