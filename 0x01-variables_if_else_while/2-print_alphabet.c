@@ -9,9 +9,13 @@
 int main(void)
 {
 	int l = 97;
-	for (l = 97; l <= 122; l++){
+
+	while (l <= 122)
+	{
 		putchar(l);
+		l++;
 	}
+	putchar('\n');
 	return (0);
 }
 
