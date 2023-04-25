@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-  *
   * jack_bauer - print every minute of the day
   *
   * Return: Always 0 (success)
@@ -18,13 +17,13 @@ void jack_bauer(void)
 			{
 				for (l = 0; l <= 2; l++)
 				{
-					if (a >= 2 && b>= 4)
+					if (i >= 2 && j >= 4)
 						break;
-					_putchar(a + 48);
-					_putchar(b + 48);
+					_putchar(i + 48);
+					_putchar(j + 48);
 					_putchar(58);
-					_putchar(c + 48);
-					_putchar(d + 48);
+					_putchar(k + 48);
+					_putchar(l + 48);
 					_putchar('\n');
 				}
 			}
