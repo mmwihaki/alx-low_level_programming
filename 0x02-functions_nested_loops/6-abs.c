@@ -2,12 +2,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  * _abs(int) - entry point
+  * _abs - entry point
   *
-  * @int: character to scan
+  * @i: character to scan
   *
   * description - compute the absolute value of an integer
   *
+  * Return: Always 0 (success)
   */
 int _abs(int i)
 {
