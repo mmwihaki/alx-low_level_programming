@@ -1,43 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 /**
   *
   *
-  *
-  *
-  *
   */
-int add(int, int)
+int add(int x, int y)
 {
-	int x;
-	int y;
-
-	return (x + y);
-}#include "main.h"
-/**
-  *
-  *
-  *
-  *
-  *
-  */
-int add(int, int)
-{
-	int x;
-	int y;
-
-	return (x + y);
-}#include "main.h"
-/**
-  *
-  *
-  *
-  *
-  *
-  */
-int add(int, int)
-{
-	int x;
-	int y;
-
 	return (x + y);
 }
