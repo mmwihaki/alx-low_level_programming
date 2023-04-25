@@ -12,14 +12,9 @@ void print_to_98(int n)
 {
 	int i;
 
-	for (i = n; i <= 98; i++);
+	for (i = n; i <= 98; i++)
 	{
-		printf("%d\n", n);
-	/*print natural numbers in reverse*/
-		while (n >= 98)
-		{
-			printf("%d\n", n);
-			n--;
-		}
+		printf("%d", i);
 	}
+	printf("\n");
 }
