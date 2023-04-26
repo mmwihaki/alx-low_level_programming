@@ -11,17 +11,14 @@
 void print_to_98(int n)
 {
 	int i;
-	char *sep = "";
 
 	if (n <= 98)
 	{
 		for (i = n; i <= 98; i++)
-			printf("%d", sep, i);
-			sep = ", ";
+			printf("%d,", i);
 	}
 	else
-		for (i = n; i > 98; i--)
-			printf("%d", sep, i);
-			sep = ", ";
+		for (i = n; i >= 98; i--)
+			printf("%d,", i);
 	printf("\n");
 }
