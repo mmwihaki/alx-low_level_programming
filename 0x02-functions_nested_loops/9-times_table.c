@@ -10,31 +10,14 @@
   */
 void times_table(void)
 {
-	/*
-	   while (condition)
-	   {
-
-	   while (condition)
-	   {
-	   statement;
-	   increment;
-	   }
-
-	   statement;
-	   increment;
-	   }
-
-	 */
-
-
 	int i = 0, j;
 
-	while(i <= 9)
+	while (i <= 9)
 	{
 		j = 0;
 		while (j <= 9)
 		{
-			printf("%d\t", i*j);
+			printf("%d,\t", i * j);
 			j++;
 		}
 		printf("\n");
