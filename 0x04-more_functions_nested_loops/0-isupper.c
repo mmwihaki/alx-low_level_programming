@@ -1,3 +1,7 @@
+#include <ctype.h>
+#include "main.h"
+#include <stdio.h>
+
 /**
   * _isupper - Entry point
   * @c: The character to scan
@@ -7,7 +11,7 @@
   */
 int _isupper(int c)
 {
-	if (c >= 97 && c <= 122)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
@@ -15,5 +19,5 @@ int _isupper(int c)
 	{
 		return (0);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
