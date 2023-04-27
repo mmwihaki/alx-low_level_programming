@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
   * times_table - Entry point
   *
@@ -9,10 +10,34 @@
   */
 void times_table(void)
 {
-	int n;
+	/*
+	   while (condition)
+	   {
 
-	for (n = 0; n <= 10; n++)
+	   while (condition)
+	   {
+	   statement;
+	   increment;
+	   }
+
+	   statement;
+	   increment;
+	   }
+
+	 */
+
+
+	int i = 0, j;
+
+	while(i <= 9)
 	{
-		_putchar(n * 9);
+		j = 0;
+		while (j <= 9)
+		{
+			printf("%d\t", i*j);
+			j++;
+		}
+		printf("\n");
+		i++;
 	}
 }
