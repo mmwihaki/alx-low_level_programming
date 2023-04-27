@@ -3,9 +3,9 @@
 /**
   * _isdigit - main entry
   *
-  * int c - character to scan
+  * @c: character to scan
   *
-  * description - checks for a digit
+  * desicription - checks for a digit
   *
   * Return: 0 or 1
   */
