@@ -3,9 +3,10 @@
 /**
   * mul - entry point
   * @a: character to scan
-  * @c: character to scan
+  * @b: character to scan
   *
   * description - a function that multiplies two integers
+  * Return: 0
   */
 int mul(int a, int b)
 {
