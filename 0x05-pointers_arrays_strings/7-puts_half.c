@@ -24,7 +24,7 @@ void puts_half(char *str)
 		j = (i - 1) / 2;
 		j += 1;
 	}
-	else 
+	else
 	{
 		j = i / 2; /*even strlen*/
 	}
