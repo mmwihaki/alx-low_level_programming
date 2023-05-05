@@ -13,11 +13,11 @@
   */
 int _strcmp(char *s1, char *s2)
 {
-	int i, cmp;
+	int i = 0;
 
-	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
+	while (s1[i] != '\0' || s2[i] != '\0')
 	{
-		cmp = *s1 - *s2;
+		i++;
 	}
-	return (cmp);
+	return (*s1 - *s2);
 }
