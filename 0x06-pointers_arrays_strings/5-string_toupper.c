@@ -3,7 +3,7 @@
 /**
   * string_toupper - change lowercase to uppercase
   *
-  * @'': string
+  * @str: string
   *
   * description - changes all lowercase letters of a string to uppercase
   *
@@ -16,7 +16,7 @@ char *string_toupper(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (str[i] >= 'a' && str[i] <= 'z')
-			str[i] =(int)str[i] - 32;
+			str[i] = (int)str[i] - 32;
 	}
 	return (str);
 }
