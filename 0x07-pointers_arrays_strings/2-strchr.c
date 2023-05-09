@@ -2,7 +2,7 @@
 /**
   * *_strchr - locate a character in a string
   *
-  * @*s: string
+  * @s: string
   *
   * @c: character in a string
   *
