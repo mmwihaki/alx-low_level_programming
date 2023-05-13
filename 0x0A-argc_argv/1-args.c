@@ -8,11 +8,11 @@
  *
  * description - prints the number of arguments passed
  *
- * return: always 0 (SUCCESS)
+ * Return: always 0 (SUCCESS)
  */
 int main(int argc, char *argv[])
 {
 	(void)argv;
 	printf("%d\n", argc - 1);
-	return(0);
+	return (0);
 }
