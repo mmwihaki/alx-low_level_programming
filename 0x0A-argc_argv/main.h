@@ -1,1 +1,1 @@
-int main (int qrgc, char * argv[]);
+int main (int argc, char *argv[]);
