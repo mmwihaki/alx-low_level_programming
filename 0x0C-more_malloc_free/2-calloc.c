@@ -9,7 +9,7 @@
   *
   * description - allocate memory for an array using malloc
   *
-  * return: always 0
+  * Return: pointer
   */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
