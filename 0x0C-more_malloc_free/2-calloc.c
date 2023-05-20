@@ -1,13 +1,15 @@
 #include "main.h"
 #include <stdlib.h>
 /**
+  * _calloc - allocate memory
   *
+  * @nmemb: array
   *
+  * @size: elements
   *
+  * description - allocate memory for an array using malloc
   *
-  *
-  *
-  *
+  * return: always 0
   */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
