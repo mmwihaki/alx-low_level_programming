@@ -10,6 +10,8 @@
  * @owner: owner
  *
  * description - a function that prints a new dog
+ *
+ * Return: new_dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -17,13 +19,15 @@ dog_t *new_dog(char *name, float age, char *owner)
 	size_t owner_length = strlen(owner);
 
 	dog_t *new_dog = (dog_t *)malloc(sizeof(dog_t));
+
 	if (new_dog == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
 
 	new_dog->name = (char *)malloc((name_length + 1) * sizeof(char));
 	new_dog->owner = (char *)malloc((owner_length + 1) * sizeof(char));
+
 	if (new_dog->name == NULL || new_dog->owner == NULL)
 	{
 		free(new_dog->name);
