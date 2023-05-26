@@ -13,43 +13,33 @@
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	int i = 0;
-	char * str = NULL;
-	/**
-	char c = va_arg(args, int);
-	int num = va_arg(args, int);
-	float f = va_arg(args, double);
-	*/
+	const char *f = format;
 
 	va_start(args, format);
 
-	while (format[i] != '\0')
+	while (*f != '\0')
 	{
-		if (format[i] == 'c')
+		if (*f == 'c')
 		{
 			printf("%c", va_arg(args, int));
 		}
-		else if (format[i] == 'i')
+		else if(*f == 'i')
 		{
 			printf("%d", va_arg(args, int));
 		}
-		else if (format[i] == 's')
-		{
-			if (str == NULL)
-			{
-				printf("(nil)");
-			}
-			else
-			{
-				printf("%s", va_arg(args, char *));
-			}
-		}
-		else if (format[i] == 'f')
+		else if (*f == 'f')
 		{
 			printf("%f", va_arg(args, double));
 		}
-		i++;
-
-		printf("\n");
+		else if (*f == 's')
+		{
+			char *str = va_arg(args, char *);
+			printf("%s", (str ? str : "(nil)"));
+		}
+		f++;
 	}
+
+	va_end(args);
+
+	printf("\n");
 }
