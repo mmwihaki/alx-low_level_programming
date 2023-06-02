@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
   * list_len - return number of elements in a linked list
-  * @h: head node 
+  * @h: head node
   * @description - return elements in a linked list
-  * return: number of elements
+  * Return: number of elements
   */
 size_t list_len(const list_t *h)
 {
