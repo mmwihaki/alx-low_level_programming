@@ -21,9 +21,9 @@ size_t print_list(const list_t *h)
 		return (i);
 	}
 
-	for (j = h; j != NULL; h = h->next)
+	for (j = h; j != NULL; j = j->next)
 	{
-		printf("%s\n", h->str);
+		printf("%s\n", j->str);
 		i++;
 	}
 	return (i);
