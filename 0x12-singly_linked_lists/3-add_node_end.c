@@ -4,7 +4,7 @@
 #include <stdlib.h>
 /**
  * *add_node_end - add node
- * @head: first node 
+ * @head: first node
  * @str: new node
  * description - add node to the end of the list
  * Return: the address of the new element, or NULL if it failed
