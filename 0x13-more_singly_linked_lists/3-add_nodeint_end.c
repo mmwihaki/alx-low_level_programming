@@ -4,8 +4,8 @@
 /**
  * add_nodeint_end - add node at the end
  *
- * @head - head
- * @n - new node
+ * @head: head
+ * @n: new node
  *
  * description - add node at the end of list
  *
