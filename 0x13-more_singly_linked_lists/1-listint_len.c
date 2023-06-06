@@ -3,9 +3,9 @@
 /**
  * listint_len - check number of elements in a linkedin list
  *
- * @h - head node 
+ * @h - head node
  *
- * description - return number of elements 
+ * description - return number of elements
  *
  * Return: Number fo elements in a linked list
  */
