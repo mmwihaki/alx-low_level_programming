@@ -22,7 +22,7 @@ void free_listint2(listint_t **head)
 
 	while (currentNode != NULL)
 	{
-		nextNode = currentNode -> next;
+		nextNode = currentNode->next;
 		free(currentNode);
 		currentNode = nextNode;
 	}
