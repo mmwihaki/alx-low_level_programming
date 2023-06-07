@@ -3,7 +3,7 @@
  * _pow_recursion - return value of x raised to y
  *
  * @x: input
- * @y input
+ * @y: input
  *
  * description - return x raised to y
  * Return: 0
