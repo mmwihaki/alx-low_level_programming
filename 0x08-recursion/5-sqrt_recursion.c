@@ -11,7 +11,7 @@ int initial_sqrt_recursion(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-	if (n < 10)
+	if (n < 1)
 		return (-1);
 
 	return (initial_sqrt_recursion(n, 0));
