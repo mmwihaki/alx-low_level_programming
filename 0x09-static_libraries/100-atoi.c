@@ -2,7 +2,7 @@
 /**
  * _atoi - atoi
  * @s: string
- * description - 
+ * description - atoi
  * Return: 0
  */
 int _atoi(char *s)
