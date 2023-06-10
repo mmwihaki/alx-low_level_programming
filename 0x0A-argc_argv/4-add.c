@@ -5,9 +5,11 @@
  * main - check code
  *
  * @argc: argument count
- * @argc: argument vector
+ * @argv: argument vector
  *
  * description - add positive numbers
+ *
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
