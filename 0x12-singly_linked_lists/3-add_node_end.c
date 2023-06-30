@@ -20,15 +20,15 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	endNode->str == strdup(str);
+	endNode->str = strdup(str);
 
 	if (endNode->str == NULL)
 	{
 		free(endNode);
-		returnn (NULL);
+		return (NULL);
 	}
 
-	endNode-> = NULL;
+	endNode->next = NULL;
 
 	if (*head == NULL)
 	{
