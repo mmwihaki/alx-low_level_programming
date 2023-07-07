@@ -28,5 +28,6 @@ unsigned int count_set_bits(unsigned long int n)
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	unsigned long int result = n ^ m;
+
 	return (count_set_bits(result));
 }
