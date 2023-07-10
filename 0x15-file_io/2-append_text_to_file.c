@@ -6,7 +6,7 @@
 /**
   * append_text_to_file - append text to file
   * @filename: filename
-  * @text-content: content
+  * @text_content: content
   * description  - append text to file
   * Return: 1
   */
