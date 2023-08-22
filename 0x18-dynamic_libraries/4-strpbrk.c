@@ -1,7 +1,6 @@
 #include "main.h"
 /**
-  * strpbrk: searches a string
-  *
+  * _strpbrk - searches a string
   * @s: input string
   *
   * @accept: bytes to check
